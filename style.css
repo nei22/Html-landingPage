@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.headerImage {
+  height: 72px;
+}
+.headerMenu {
+  display: flex;
+  gap: 32px;
+}
+.headerMenuItem {
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* MAIN */
+.main {
+  padding-bottom: 48px;
+  border-top: 0.4px solid #fff2e7;
+}
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.mainHum {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #fff2e7;
+  font-size: 64px;
+}
+.mainHdois {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  color: #ecd6c4;
+  font-size: 24px;
+}
+.mainButton {
+  border-radius: 20px;
+  height: 60px;
+  width: 180px;
+  background-color: #ecd6c4;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+.mainButton:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.mainImage {
+  height: 430px;
+}
+.mainSectionDois {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.mainSectionDoisHtres {
+  border-top: #fff2e7 solid 0.4px;
+  padding-top: 48px;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2ef;
+}
+.mainSectionDoisPe {
+  font-family: "Sarala", sans-serif;
+  font-weight: 00;
+  font-size: 18px;
+  color: #fff2ef;
+}
+
+/* FOOTER */
+.footer {
+  padding: 32px;
+  border-top: #fff2e7 solid 0.4px;
+}
+.footerDiv {
+}
+.footerDivImage {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
